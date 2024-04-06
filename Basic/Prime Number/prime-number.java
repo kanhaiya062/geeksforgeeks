@@ -25,7 +25,7 @@ class Solution{
        if(N <= 1){
             return 0;
         }
-        for(int i = 2 ; i<=Math.sqrt(N); i++){
+        for(int i = 2 ; i*i<=N; i++){
             if(N % i == 0){
                 return 0;
             }
